@@ -6,6 +6,4 @@ With this command all local branches except `main` are deleted.
 git branch | grep -v "main" | xargs git branch -D
 ```
 
-<small>
 [Source](https://efficientcoder.net/delete-local-remote-git-branches/)
-</small>
